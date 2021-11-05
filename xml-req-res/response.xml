@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<getListResponse xmlns="http://getlistdetails.com/list"
+xsi:schemaLocation="http://getlistdetails.com/list list.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id>123</id>
+	<firstName>texagon</firstName>
+	<lastName>h</lastName>
+	<number>234234234</number>
+	<country>India</country>
+</getListResponse>
