@@ -5,21 +5,28 @@ xmlns:tns="http://getlistdetails.com/list" elementFormDefault="qualified">
 <element name="getListRequest">
 	<complexType>
 		<sequence>
-			<element name="id" type="string"></element>
+			<element name="id" type="int"></element>
 		</sequence>
 	</complexType>
 </element>
 <element name="getListResponse">
 	<complexType>
 		<sequence>
-			<element name="id" type="integer"></element>
-			<element name="firstName" type="string"></element>
-			<element name="lastName" type="string"></element>
-			<element name="number" type="integer"></element>
-			<element name="country" type="string"></element>
+			<element name="user" type="tns:userDetail"></element>
 		</sequence>
 	</complexType>
 </element>
+
+	<complexType name="userDetail">
+		<sequence>
+			<element name="id" type="int"></element>
+			<element name="firstName" type="string"></element>
+			<element name="lastName" type="string"></element>
+			<element name="number" type="int"></element>
+			<element name="country" type="string"></element>
+		</sequence>
+	</complexType>
+
 </schema>
 
 <!-- 
